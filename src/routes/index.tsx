@@ -28,7 +28,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "DeepCells × BatteryEVO Liquidation — Lithium Battery Sale" },
+      { title: "DeepCells × TechDirect Liquidation — Lithium Battery Sale" },
       { name: "description", content: "30–50% OFF select lithium battery inventory. Home backup, golf cart, RV & industrial. Hosted by DeepCells, processed with TechDirect. Ends in 2 weeks." },
     ],
   }),
@@ -135,7 +135,7 @@ function Index() {
     if (!meetsMin) return toast.error(`Minimum order is ${fmt(MIN_ORDER)}. You're at ${fmt(subtotal)}.`);
 
     const body = [
-      "DeepCells × BatteryEVO Liquidation Order Request",
+      "DeepCells × TechDirect Liquidation Order Request",
       "",
       `Name: ${form.name}`,
       `Company: ${form.company}`,
@@ -181,10 +181,10 @@ function Index() {
                 LIVE LIQUIDATION EVENT · ENDS IN 2 WEEKS
               </div>
               <h1 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0077ff]">
-                DeepCells | BatteryEVO<br />Liquidation Sale
+                DeepCells | TechDirect<br />Liquidation Sale
               </h1>
               <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-                DeepCells is hosting an exclusive liquidation event of BatteryEVO inventory, 30–50% OFF & partnered and processed with TechDirect. Select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served
+                DeepCells is hosting an exclusive liquidation event of TechDirect inventory, 30–50% OFF & partnered and processed with TechDirect. Select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served
               </p>
 
               <div className="mt-7 grid grid-cols-4 gap-3 max-w-md">
@@ -337,7 +337,7 @@ function Index() {
           <div className="flex items-center gap-3">
             <img src={logo} alt="DeepCells" className="h-10 w-auto" />
             <div className="text-sm text-muted-foreground">
-              Liquidation event hosted by DeepCells. Inventory & payments fulfilled by BatteryEVO.
+              Liquidation event hosted by DeepCells. Inventory & payments fulfilled by TechDirect.
             </div>
           </div>
           <div className="text-sm text-muted-foreground sm:text-right">
@@ -406,7 +406,7 @@ function TrustCard() {
     { icon: Star, label: "eBay Seller Rating", value: "99.3% positive", sub: "Thousands of verified buyer reviews" },
     { icon: BadgeCheck, label: "eBay Top Rated Plus", value: "Trusted Seller", sub: "Fast shipping & top-tier service" },
     { icon: Users, label: "Loyal Following", value: "10K+ buyers", sub: "Active community on eBay" },
-    { icon: ShieldCheck, label: "Authorized Inventory", value: "Direct from BatteryEVO", sub: "Authentic, warrantied lithium batteries" },
+    { icon: ShieldCheck, label: "Authorized Inventory", value: "Direct from TechDirect", sub: "Authentic, warrantied lithium batteries" },
   ];
   const [i, setI] = useState(0);
   useMemo(() => {
@@ -423,9 +423,9 @@ function TrustCard() {
         </a>
       </div>
       <div className="mt-3 flex items-center gap-3">
-        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-primary-foreground font-black">BE</div>
+        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-primary-foreground font-black">TD</div>
         <div>
-          <div className="text-lg font-bold">BatteryEVO</div>
+          <div className="text-lg font-bold">TechDirect</div>
           <div className="flex items-center gap-1 text-xs text-muted-foreground">
             {[...Array(5)].map((_, k) => <Star key={k} className="h-3.5 w-3.5 fill-primary text-primary" />)}
             <span className="ml-1">eBay verified seller</span>
