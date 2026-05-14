@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "DeepCells × BatteryEVO Liquidation — Lithium Battery Sale" },
-      { name: "description", content: "30–40% OFF select lithium battery inventory. Home backup, golf cart, RV & industrial. Hosted by DeepCells, fulfilled by BatteryEVO. Ends in 2 weeks." },
+      { name: "description", content: "30–50% OFF select lithium battery inventory. Home backup, golf cart, RV & industrial. Hosted by DeepCells, processed with TechDirect. Ends in 2 weeks." },
     ],
   }),
 });
