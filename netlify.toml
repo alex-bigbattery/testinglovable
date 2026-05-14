@@ -1,17 +1,8 @@
 [build]
   command = "npm run build"
-  functions = "netlify/functions"
   publish = "dist/public"
 
 [dev]
   command = "npm run dev"
   port = 5173
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/server"
-  status = 200
-
-[context.production]
-  command = "npm run build"
 
