@@ -180,8 +180,8 @@ function Index() {
                 <span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-600 opacity-75" /><span className="relative inline-flex h-2 w-2 rounded-full bg-green-600" /></span>
                 LIVE LIQUIDATION EVENT · ENDS IN 2 WEEKS
               </div>
-              <h1 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
-                DeepCells is hosting an exclusive liquidation event of <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-primary)" }}>BatteryEVO inventory — 30–50% OFF</span> & partnered and processed with <span className="text-foreground">TechDirect</span>.
+              <h1 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0077ff]">
+                DeepCells | BatteryEVO<br />Liquidation Sale
               </h1>
               <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
                 Select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
