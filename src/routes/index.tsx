@@ -233,7 +233,7 @@ function Index() {
       <main id="catalog" className="mx-auto max-w-6xl px-6 py-16">
         <div className="flex items-end justify-between gap-4 flex-wrap">
           <div>
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">The inventory</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Select Products</h2>
             <p className="mt-2 text-muted-foreground">Set quantities below. Your order summary updates live.</p>
           </div>
           <div className="text-sm text-muted-foreground max-w-2xl">
