@@ -181,7 +181,7 @@ function Index() {
                 LIVE LIQUIDATION EVENT · ENDS IN 2 WEEKS
               </div>
               <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-                Lithium batteries at <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-primary)" }}>liquidation prices.</span>
+                Ideal for <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-primary)" }}>bulk buyers, resellers, installers & contractors.</span>
               </h1>
               <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
                 <span className="text-foreground font-semibold">DeepCells</span> is hosting an exclusive liquidation event of <span className="text-foreground font-semibold">BatteryEVO</span> inventory — <span className="font-bold text-[var(--promo)]">30–40% OFF</span> select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
