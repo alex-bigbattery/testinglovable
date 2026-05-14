@@ -184,7 +184,7 @@ function Index() {
                 DeepCells | BatteryEVO<br />Liquidation Sale
               </h1>
               <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-                Select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
+                DeepCells is hosting an exclusive liquidation event of BatteryEVO inventory, 30–50% OFF & partnered and processed with TechDirect. Select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served
               </p>
 
               <div className="mt-7 grid grid-cols-4 gap-3 max-w-md">
