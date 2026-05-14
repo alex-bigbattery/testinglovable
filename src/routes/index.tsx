@@ -353,7 +353,7 @@ function Row({ label, value, bold, accent, muted }: { label: string; value: stri
   return (
     <div className={`flex items-center justify-between ${bold ? "text-base font-bold" : ""}`}>
       <span className={muted ? "text-muted-foreground" : ""}>{label}</span>
-      <span className={`tabular-nums ${accent ? "text-primary font-semibold" : ""}`}>{value}</span>
+      <span className={`tabular-nums ${accent ? "text-[var(--promo)] font-semibold" : ""}`}>{value}</span>
     </div>
   );
 }
