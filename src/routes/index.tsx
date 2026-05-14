@@ -449,7 +449,7 @@ function TrustCard() {
         </a>
       </div>
       <div className="mt-3 flex items-center gap-3">
-        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-primary-foreground font-black">TD</div>
+        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-primary-foreground font-black">BE</div>
         <div>
           <div className="text-lg font-bold">BatteryEVO</div>
           <div className="flex items-center gap-1 text-xs text-muted-foreground">
