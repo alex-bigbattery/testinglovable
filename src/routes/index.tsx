@@ -236,8 +236,8 @@ function Index() {
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">The inventory</h2>
             <p className="mt-2 text-muted-foreground">Set quantities below. Your order summary updates live.</p>
           </div>
-          <div className="text-sm text-muted-foreground max-w-2xl whitespace-pre-line">
-            Select Products{"\n"}You'd Like
+          <div className="text-sm text-muted-foreground max-w-2xl">
+            Select Products
           </div>
         </div>
 
