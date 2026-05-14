@@ -250,7 +250,7 @@ function Index() {
                 </div>
                 <h3 className="text-xl sm:text-2xl font-semibold">{cat.name}</h3>
               </div>
-              <div className="mt-5 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
+              <div className="mt-5 flex flex-col gap-2">
                 {cat.products.map((p) => (
                   <ProductCard key={p.id} product={p} qty={qty[p.id] || 0} setQ={(v) => setQ(p.id, v)} />
                 ))}
