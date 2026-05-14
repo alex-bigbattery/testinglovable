@@ -175,8 +175,8 @@ function Index() {
 
           <div className="mt-10 grid items-center gap-10 lg:grid-cols-[1.2fr_1fr]">
             <div>
-              <div className="inline-flex items-center gap-2 rounded-full border border-[var(--urgency)]/40 bg-[var(--urgency)]/10 px-3 py-1 text-xs font-semibold text-[var(--urgency)]">
-                <span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--urgency)] opacity-75" /><span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--urgency)]" /></span>
+              <div className="inline-flex items-center gap-2 rounded-full border border-green-600/40 bg-green-600/10 px-3 py-1 text-xs font-semibold text-green-600">
+                <span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-600 opacity-75" /><span className="relative inline-flex h-2 w-2 rounded-full bg-green-600" /></span>
                 LIVE LIQUIDATION EVENT · ENDS IN 2 WEEKS
               </div>
               <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
