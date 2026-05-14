@@ -28,8 +28,8 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "DeepCells × TechDirect Liquidation — Lithium Battery Sale" },
-      { name: "description", content: "30–40% OFF select lithium battery inventory. Home backup, golf cart, RV & industrial. Hosted by DeepCells, fulfilled by TechDirect. Ends in 2 weeks." },
+      { title: "DeepCells × BatteryEVO Liquidation — Lithium Battery Sale" },
+      { name: "description", content: "30–40% OFF select lithium battery inventory. Home backup, golf cart, RV & industrial. Hosted by DeepCells, fulfilled by BatteryEVO. Ends in 2 weeks." },
     ],
   }),
 });
@@ -135,7 +135,7 @@ function Index() {
     if (!meetsMin) return toast.error(`Minimum order is ${fmt(MIN_ORDER)}. You're at ${fmt(subtotal)}.`);
 
     const body = [
-      "DeepCells × TechDirect Liquidation Order Request",
+      "DeepCells × BatteryEVO Liquidation Order Request",
       "",
       `Name: ${form.name}`,
       `Company: ${form.company}`,
@@ -184,7 +184,7 @@ function Index() {
                 Lithium batteries at <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-primary)" }}>liquidation prices.</span>
               </h1>
               <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-                <span className="text-foreground font-semibold">DeepCells</span> is hosting an exclusive liquidation event of <span className="text-foreground font-semibold">TechDirect</span> inventory — <span className="font-bold text-[var(--promo)]">30–40% OFF</span> select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
+                <span className="text-foreground font-semibold">DeepCells</span> is hosting an exclusive liquidation event of <span className="text-foreground font-semibold">BatteryEVO</span> inventory — <span className="font-bold text-[var(--promo)]">30–40% OFF</span> select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
               </p>
 
               <div className="mt-7 grid grid-cols-4 gap-3 max-w-md">
@@ -215,7 +215,7 @@ function Index() {
               { i: Package, l: "Min. order", v: "$5,000", color: "text-primary" },
               { i: Calendar, l: "Sale ends", v: "In 2 weeks", color: "text-[var(--urgency)]" },
               { i: MapPin, l: "Select your desired quantity for your order, summary updates are live.", v: "Chatsworth, CA", color: "text-primary" },
-              { i: ShieldCheck, l: "Fulfilled by", v: "TechDirect", color: "text-primary" },
+              { i: ShieldCheck, l: "Fulfilled by", v: "BatteryEVO", color: "text-primary" },
             ].map((f) => (
               <div key={f.l} className="flex items-center gap-3 rounded-xl border border-border bg-card p-4">
                 <f.i className={`h-5 w-5 ${f.color}`} />
@@ -337,7 +337,7 @@ function Index() {
           <div className="flex items-center gap-3">
             <img src={logo} alt="DeepCells" className="h-10 w-auto" />
             <div className="text-sm text-muted-foreground">
-              Liquidation event hosted by DeepCells. Inventory & payments fulfilled by TechDirect.
+              Liquidation event hosted by DeepCells. Inventory & payments fulfilled by BatteryEVO.
             </div>
           </div>
           <div className="text-sm text-muted-foreground sm:text-right">
@@ -432,7 +432,7 @@ function TrustCard() {
     { icon: Star, label: "eBay Seller Rating", value: "99.3% positive", sub: "Thousands of verified buyer reviews" },
     { icon: BadgeCheck, label: "eBay Top Rated Plus", value: "Trusted Seller", sub: "Fast shipping & top-tier service" },
     { icon: Users, label: "Loyal Following", value: "10K+ buyers", sub: "Active community on eBay" },
-    { icon: ShieldCheck, label: "Authorized Inventory", value: "Direct from TechDirect", sub: "Authentic, warrantied lithium batteries" },
+    { icon: ShieldCheck, label: "Authorized Inventory", value: "Direct from BatteryEVO", sub: "Authentic, warrantied lithium batteries" },
   ];
   const [i, setI] = useState(0);
   useMemo(() => {
@@ -451,7 +451,7 @@ function TrustCard() {
       <div className="mt-3 flex items-center gap-3">
         <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-primary-foreground font-black">TD</div>
         <div>
-          <div className="text-lg font-bold">TechDirect</div>
+          <div className="text-lg font-bold">BatteryEVO</div>
           <div className="flex items-center gap-1 text-xs text-muted-foreground">
             {[...Array(5)].map((_, k) => <Star key={k} className="h-3.5 w-3.5 fill-primary text-primary" />)}
             <span className="ml-1">eBay verified seller</span>
