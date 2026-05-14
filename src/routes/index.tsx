@@ -180,11 +180,11 @@ function Index() {
                 <span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-600 opacity-75" /><span className="relative inline-flex h-2 w-2 rounded-full bg-green-600" /></span>
                 LIVE LIQUIDATION EVENT · ENDS IN 2 WEEKS
               </div>
-              <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-                Ideal for <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-primary)" }}>bulk buyers, resellers, installers & contractors.</span>
+              <h1 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
+                DeepCells is hosting an exclusive liquidation event of <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-primary)" }}>BatteryEVO inventory — 30–50% OFF</span> & partnered and processed with <span className="text-foreground">TechDirect</span>.
               </h1>
               <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-                <span className="text-foreground font-semibold">DeepCells</span> is hosting an exclusive liquidation event of <span className="text-foreground font-semibold">BatteryEVO</span> inventory — <span className="font-bold text-[var(--promo)]">30–40% OFF</span> select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
+                Select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
               </p>
 
               <div className="mt-7 grid grid-cols-4 gap-3 max-w-md">
