@@ -236,8 +236,8 @@ function Index() {
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">The inventory</h2>
             <p className="mt-2 text-muted-foreground">Set quantities below. Your order summary updates live.</p>
           </div>
-          <div className="text-sm text-muted-foreground max-w-2xl">
-            DeepCells is hosting an exclusive liquidation event of BatteryEVO inventory, 30–50% OFF & partnered and processed with TechDirect. Select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
+          <div className="text-sm text-muted-foreground max-w-2xl whitespace-pre-line">
+            Select Products{"\n"}You'd Like
           </div>
         </div>
 
