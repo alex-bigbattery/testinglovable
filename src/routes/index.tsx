@@ -372,14 +372,14 @@ function ProductCard({ product, qty, setQ }: { product: Product; qty: number; se
     <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition hover:border-primary/50" style={{ boxShadow: qty > 0 ? "var(--shadow-glow)" : undefined }}>
       <div className="relative aspect-[4/3] overflow-hidden bg-muted">
         <img src={product.image} alt={product.name} className="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-105" loading="lazy" />
-        <div className="absolute left-3 top-3 rounded-full bg-primary px-2.5 py-1 text-[11px] font-bold text-primary-foreground">{product.off}% OFF</div>
+        <div className="absolute left-3 top-3 rounded-full bg-[var(--promo)] px-2.5 py-1 text-[11px] font-bold text-[var(--promo-foreground)] shadow-sm">{product.off}% OFF</div>
       </div>
       <div className="flex flex-1 flex-col p-5">
         <div className="text-xs uppercase tracking-wider text-primary">{product.spec}</div>
         <h4 className="mt-1 text-lg font-semibold">{product.name}</h4>
         <p className="mt-1.5 text-sm text-muted-foreground line-clamp-2">{product.blurb}</p>
         <div className="mt-4 flex items-baseline gap-2">
-          <span className="text-2xl font-bold">{fmt(product.sale)}</span>
+          <span className="text-2xl font-bold text-[var(--promo)]">{fmt(product.sale)}</span>
           <span className="text-sm text-muted-foreground line-through">{fmt(product.retail)}</span>
         </div>
         <div className="mt-5 flex items-center justify-between gap-3">
