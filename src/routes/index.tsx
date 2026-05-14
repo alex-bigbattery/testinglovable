@@ -201,7 +201,7 @@ function Index() {
                   <a href="#catalog">Browse inventory</a>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <a href="#order">Reserve your order</a>
+                  <a href="#order">Contact Us</a>
                 </Button>
               </div>
             </div>
