@@ -236,8 +236,8 @@ function Index() {
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">The inventory</h2>
             <p className="mt-2 text-muted-foreground">Set quantities below. Your order summary updates live.</p>
           </div>
-          <div className="text-sm text-muted-foreground">
-            Ideal for <span className="text-foreground font-medium">bulk buyers, resellers, installers & contractors</span>.
+          <div className="text-sm text-muted-foreground max-w-2xl">
+            <span className="text-foreground font-medium">DeepCells</span> is hosting an exclusive liquidation event of <span className="text-foreground font-medium">BatteryEVO</span> inventory — <span className="font-semibold text-[var(--promo)]">30–50% OFF</span> & partnered and processed with <span className="text-foreground font-medium">TechDirect</span>. Select home backup, golf cart, RV, and industrial lithium batteries. First-come, first-served.
           </div>
         </div>
 
