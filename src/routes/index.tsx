@@ -374,20 +374,20 @@ function ProductCard({ product, qty, setQ }: { product: Product; qty: number; se
         <img src={product.image} alt={product.name} className="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-105" loading="lazy" />
         <div className="absolute left-3 top-3 rounded-full bg-[var(--promo)] px-2.5 py-1 text-[11px] font-bold text-[var(--promo-foreground)] shadow-sm">{product.off}% OFF</div>
       </div>
-      <div className="flex flex-1 flex-col p-5">
-        <div className="text-xs uppercase tracking-wider text-primary">{product.spec}</div>
-        <h4 className="mt-1 text-lg font-semibold">{product.name}</h4>
-        <p className="mt-1.5 text-sm text-muted-foreground line-clamp-2">{product.blurb}</p>
-        <div className="mt-4 flex items-baseline gap-2">
-          <span className="text-2xl font-bold text-[var(--promo)]">{fmt(product.sale)}</span>
-          <span className="text-sm text-muted-foreground line-through">{fmt(product.retail)}</span>
+      <div className="flex flex-1 flex-col p-3 sm:p-5">
+        <div className="text-[10px] sm:text-xs uppercase tracking-wider text-primary line-clamp-2 min-h-[2.4em] leading-tight">{product.spec}</div>
+        <h4 className="mt-1 text-sm sm:text-lg font-semibold line-clamp-2 min-h-[2.6em] sm:min-h-[3.2em] leading-tight">{product.name}</h4>
+        <p className="mt-1.5 text-xs sm:text-sm text-muted-foreground line-clamp-2">{product.blurb}</p>
+        <div className="mt-3 sm:mt-4 flex items-baseline gap-2 flex-wrap">
+          <span className="text-lg sm:text-2xl font-bold text-[var(--promo)]">{fmt(product.sale)}</span>
+          <span className="text-xs sm:text-sm text-muted-foreground line-through">{fmt(product.retail)}</span>
         </div>
-        <div className="mt-5 flex items-center justify-between gap-3">
-          <span className="text-xs text-muted-foreground">Quantity</span>
-          <div className="flex items-center gap-1 rounded-full border border-border bg-background p-1">
-            <button type="button" aria-label="Decrease" onClick={() => setQ(qty - 1)} className="flex h-8 w-8 items-center justify-center rounded-full hover:bg-muted disabled:opacity-40" disabled={qty === 0}><Minus className="h-4 w-4" /></button>
-            <input type="number" min={0} value={qty} onChange={(e) => setQ(parseInt(e.target.value || "0", 10))} className="w-12 bg-transparent text-center text-sm font-semibold outline-none" />
-            <button type="button" aria-label="Increase" onClick={() => setQ(qty + 1)} className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground hover:opacity-90"><Plus className="h-4 w-4" /></button>
+        <div className="mt-4 sm:mt-5 flex flex-col items-center gap-1 sm:flex-row sm:justify-between sm:gap-3">
+          <div className="order-2 sm:order-1 text-[10px] sm:text-xs uppercase tracking-wider text-muted-foreground">QTY</div>
+          <div className="order-1 sm:order-2 flex items-center gap-1 rounded-full border border-border bg-background p-1">
+            <button type="button" aria-label="Decrease" onClick={() => setQ(qty - 1)} className="flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-full hover:bg-muted disabled:opacity-40" disabled={qty === 0}><Minus className="h-3.5 w-3.5 sm:h-4 sm:w-4" /></button>
+            <input type="number" min={0} value={qty} onChange={(e) => setQ(parseInt(e.target.value || "0", 10))} className="w-8 sm:w-12 bg-transparent text-center text-sm font-semibold outline-none" />
+            <button type="button" aria-label="Increase" onClick={() => setQ(qty + 1)} className="flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-full bg-primary text-primary-foreground hover:opacity-90"><Plus className="h-3.5 w-3.5 sm:h-4 sm:w-4" /></button>
           </div>
         </div>
       </div>
